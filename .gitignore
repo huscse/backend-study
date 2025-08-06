@@ -141,3 +141,6 @@ dist
 .svelte-kit
 
 .gitignore
+
+.prettierrc
+.prettierignore
