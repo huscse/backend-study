@@ -58,6 +58,4 @@ const userSchema = new Schema(
     }
 );
 
-console.log("prac");
-
 export const User = mongoose.model("User", userSchema);
