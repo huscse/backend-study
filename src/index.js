@@ -18,7 +18,7 @@ connectDB()
     });
 
 
-/*
+/* either way 
 import express from "express";
 const app = express()(async () => {
     try {
