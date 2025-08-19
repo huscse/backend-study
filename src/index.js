@@ -17,7 +17,6 @@ connectDB()
         console.log("Mongo DB connection failed!!", err);
     });
 
-
 /* either way  
 import express from "express";
 const app = express()(async () => {
@@ -30,6 +29,7 @@ const app = express()(async () => {
 
         app.listen(process.env.PORT, () => {
             console.log(`App is listening on port: , ${process.env.PORT}`);
+            console.log(`App working)
         });
 
     } catch (error) {
@@ -39,5 +39,3 @@ const app = express()(async () => {
 })();
 
 */
-
-
