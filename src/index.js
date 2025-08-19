@@ -18,7 +18,7 @@ connectDB()
     });
 
 
-/* either way 
+/* either way  
 import express from "express";
 const app = express()(async () => {
     try {
@@ -39,3 +39,5 @@ const app = express()(async () => {
 })();
 
 */
+
+
