@@ -25,7 +25,7 @@ const app = express()(async () => {
         app.on("error", (error) => {
             console.log("error: ", error);
             throw error;
-
+            throw error;
             throw error;
         });
 
