@@ -23,7 +23,7 @@ const app = express()(async () => {
     try {
         await mongoose.connect(`${process.env.MONGO_URI}/${DB_NAME}`);
         app.on("error", (error) => {
-            console.log("error: ", error);
+            console.log("error!: ", error);
             throw error;
             throw error;
             throw error;
@@ -42,5 +42,3 @@ const app = express()(async () => {
 })();
 
 */
-
-
