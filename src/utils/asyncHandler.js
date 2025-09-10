@@ -7,7 +7,6 @@ const asyncHandler = (requestHandler) => {
 };
 
 console.log("aysnc handler using promise!!!!");
-console.log("fun");
 
 export { asyncHandler };
 
