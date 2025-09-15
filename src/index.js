@@ -36,7 +36,7 @@ const app = express()(async () => {
         }); 
 
     } catch (error) {
-        console.error("error: ", error); // TEMP com
+        console.error("error: ", error); 
         throw error;
     }
 })();
